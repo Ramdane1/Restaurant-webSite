@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url("../images/1.jpg");
+    height: 700px;
+    background-size: cover;
+    text-align: center;
+}
+
+.logo{
+    
+    color: white;
+    font-family: 'Yesteryear', cursive;
+    font-size: 40px;
+    
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.nav-menu{
+    list-style: none;
+    color: #fff;
+}
+
+.nav-menu li{
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-menu li a:hover{
+    color : #f2ac32;
+}
+
+
+.header-title-1{
+    color: #f2ac32;
+    font-size: 60px;
+    font-family: 'Rochester', cursive;
+    margin-top: 200px;
+    margin-bottom: 25px;
+    //transition: all 0.3s ease-in-out;
+}
+
+.header-title-2{
+    font-size: 55px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 8px;
+    margin-bottom: 30px;
+    //transition: all 0.3s ease-in-out;
+    
+    
+}
+
+.header-cta-button{
+    color: white;
+    background-color:#f2ac32;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.header-cta-button:hover{
+    background-color: rgb(196, 137, 36);
+}
+
+.my-bag{
+    font-size: 25px;
+    padding-left: 20px;
+}
